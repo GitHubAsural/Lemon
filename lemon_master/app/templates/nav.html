@@ -11,16 +11,6 @@
             <li id="server"><a href="{{ url_for('server.server_list') }}"><i class="fa fa-server"></i><span>Server List</span></a></li>
             <li id="cron"><a href="{{ url_for('cron.cron_list') }}"><i class="fa fa-tasks" aria-hidden="true"></i><span>Crontab</span></a></li>
             <li><a href="#"><i class="fa fa-terminal"></i><span>Shell Terminal</span></a></li>
-            <li id="ali_cloud">
-                <a href="#ali_cloud_collapse" aria-controls="ali_cloud_collapse" data-toggle="collapse">
-                    <i class="fa fa-modx" aria-hidden="true"></i><span>Ali Cloud<i class="fa fa-fw fa-caret-down pull-right"></i></span>
-                </a>
-                <ul id="ali_cloud_collapse" class="collapse nav nav-second-level" aria-expanded="true">
-                    <li>
-                        <a href="{{ url_for('ali_cloud.refresh_cache_url') }}">Refresh Cache</a>
-                    </li>
-                </ul>
-            </li>
             <li><a href="#"><i class="fa fa-eye" aria-hidden="true"></i><span>Monitor</span></a></li>
             <li id="work_order">
                 <a  href="#work_order_collapse" aria-controls="work_order_collapse" data-toggle="collapse">
@@ -59,16 +49,6 @@
                 <img alt="Lemon" width="130" height="50" src="../static/img/logo.png"/>
             </div>
             <li id="Dashboard"><a href="{{ url_for('main.dashboard') }}"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
-            <li id="ali_cloud">
-                <a href="#ali_cloud_collapse" aria-controls="ali_cloud_collapse" data-toggle="collapse">
-                    <i class="fa fa-modx" aria-hidden="true"></i><span>Ali Cloud<i class="fa fa-fw fa-caret-down pull-right"></i></span>
-                </a>
-                <ul id="ali_cloud_collapse" class="collapse nav nav-second-level" aria-expanded="true">
-                    <li>
-                        <a href="{{ url_for('ali_cloud.refresh_cache_url') }}">Refresh Cache</a>
-                    </li>
-                </ul>
-            </li>
         </ul>
     </div>
 </nav>
